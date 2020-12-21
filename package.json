@@ -47,7 +47,7 @@
     "switch": "node publish/index.js",
     "postpublish": "node publish/restore.js && git add . && git commit -m '人生何曾驻旧足，前端处处是新旅'",
     "push:ui": "cd ../commit-ui && git add . && git commit -m '人生何曾驻旧足，前端处处是新旅' && git push origin master",
-    "push:server": "cd ../commit-server && git add . && git commit -m '人生何曾驻旧足，前端处处是新旅' && git push origin master",
+    "push:server": "cd ../commit-server && git add . && git commit -m '人生何曾驻旧足，前端处处是新旅' && git push origin main",
     "push:funmit": "git add . && git commit -m '人生何曾驻旧足，前端处处是新旅' && git push origin master"
   },
   "dependencies": {
