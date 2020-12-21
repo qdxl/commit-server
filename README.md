@@ -17,7 +17,7 @@ yarn add commit-server -D
 "funmit": "commit-server"
 ```
 
-#### 3. 执行以下命令开启服务器以及打开 commit-ui 本地 ui 界面或远程 [gitee 站点](https://funmit.gitee.io/)
+#### 3. 执行以下命令开启服务器以及打开 commit-ui 本地 ui 界面或远程 [gitee 站点](http://qianduanxinlv.gitee.io/commit-ui/)
 
 ```sh
 yarn funmit
@@ -27,8 +27,8 @@ yarn funmit gitee
 
 #### 4. 使用 commit-server 的 DEMO
 
-[commit-server_react_demo](https://github.com/qianduanxinlv/commit-server_react_demo)  
-[commit-server_vue_demo](https://github.com/qianduanxinlv/commit-server_vue_demo)
+[commit-server_react_demo](https://github.com/qdxl/commit-server_react_demo)  
+[commit-server_vue_demo](https://github.com/qdxl/commit-server_vue_demo)
 
 #### 5. 使用效果
 

@@ -178,7 +178,7 @@ getProjectBeforeCommitInfo()
     const args = process.argv[2];
     console.log("服务器已开启，端口: 1202".help);
     if (args === "gitee") {
-      open("https://funmit.gitee.io/");
+      open("http://qianduanxinlv.gitee.io/commit-ui/");
     } else {
       open(path.join(__dirname, "../../commit-ui/build/index.html"));
     }

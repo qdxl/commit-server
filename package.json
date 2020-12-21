@@ -1,10 +1,10 @@
 {
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qianduanxinlv/commit-server.git"
+    "url": "git+https://github.com/qdxl/commit-server.git"
   },
   "bugs": {
-    "url": "https://github.com/qianduanxinlv/commit-server/issues"
+    "url": "https://github.com/qdxl/commit-server/issues"
   },
   "version": "0.0.22",
   "license": "MIT",
@@ -26,7 +26,10 @@
     "有趣的提交",
     "有趣的代码提交"
   ],
-  "files": ["server", "README.md"],
+  "files": [
+    "server",
+    "README.md"
+  ],
   "engines": {
     "node": ">=10"
   },
