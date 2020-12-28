@@ -32,8 +32,8 @@ commit-ui是commit项目的前端操作界面，主要分为控制器、解释�
 各部分的操作及功能说明
 
 | 模块 | 功能或用法 | 事例或说明 |
-| :--- | :----:  | :--- |
-| 1 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 设置提交目标  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | 支持gitlab、github、gitee，选择不同的提交地址显示不同的颜色与样式 |
+| :--- | :----:w100 | :--- |
+| 1 | 设置提交目标  | 支持gitlab、github、gitee，选择不同的提交地址显示不同的颜色与样式 |
 | 2 | 设置显示年份 | 2009年至当前年份 |
 | 3 | 设置最后一次提交的时间日期 | 可选择的日期因目标不同而不同，只有提交日期选择正确，界面样式才会呈现出理想状态 |
 | 4 | 设置提交内容或样式 | 当前输入框可支持字符和日期范围输入。 1) 输入字符，当前仅支持大小写英文与数字，其余符号会解释成空格。 2) 输入日期范围，则会在相应的日期范围内显示提交信息。格式如下  [起始日期, 结束日期, 最低次数, 最高次数] ， 若没有次数默认为1次， 只输入一个次数则所有日期都会提交该次数，若两个都有，则在最低和最高之间随机取值。 例： [20200202, 20201212, 1, 20]。 注意： 若是连续输入空格而无其他文字或字符，则是清空之前未提交但是已保存的信息。 |
