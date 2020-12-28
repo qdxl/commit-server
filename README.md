@@ -25,12 +25,16 @@ or
 yarn funmit gitee
 ```
 
-#### 4. 使用 commit-server 的 DEMO
+#### 4. commit-ui 使用方法
+commit-ui是commit项目的前端操作界面，主要分为控制器、解释器以及显示器三个部分。
+![](https://gitee.com/qianduanxinlv/commit-server/raw/master/image/ui.jpg)
+
+#### 5. 使用 commit-server 的 DEMO
 
 [commit-server_react_demo](https://github.com/qdxl/commit-server_react_demo)  
 [commit-server_vue_demo](https://github.com/qdxl/commit-server_vue_demo)
 
-#### 5. 使用效果
+#### 6. 使用效果
 
 ![](https://gitee.com/qianduanxinlv/commit-server/raw/master/image/2019funmit.png)
 ![](https://gitee.com/qianduanxinlv/commit-server/raw/master/image/2019.png)
