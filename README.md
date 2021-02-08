@@ -49,7 +49,7 @@ commit-ui是commit项目的前端操作界面，主要分为控制器、解释�
 
 * 特别说明： 
   1) 最后一次提交日期（控制器的3处）默认是当前日期，若发现输入后显示器面板数字或字母错乱，则需要重新选择最后一次提交日期。
-  2) 能够顺利进行commit-server提交的前提是当前项目已经有远程仓库即进行了git init和git push 等操作。其次需要启动项目，端口号是1202，如果启动了两个，则第二个不能使用。至于为什么使用1202，因为那是我女朋友的生日😂😂😂，至于为什么只能启动一个，因为女朋友只能有一个。😂
+  2) 能够顺利进行commit-server提交的前提是当前项目已经有远程仓库即进行了git init和git push 等操作。其次需要启动项目，端口号是1202，如果启动了两个，则第二个不能使用。
 
 #### 5. 使用 commit-server 的 DEMO
 
@@ -64,6 +64,3 @@ commit-ui是commit项目的前端操作界面，主要分为控制器、解释�
 ![](https://gitee.com/qianduanxinlv/commit-server/raw/main/image/ABCDEFG.png)
 ![](https://gitee.com/qianduanxinlv/commit-server/raw/main/image/HIJKLMN.png)
 ![](https://gitee.com/qianduanxinlv/commit-server/raw/main/image/OPQRST.png)
-
-
-第一次做开源和写文档，不当之处还望各位大佬见谅和指正。
